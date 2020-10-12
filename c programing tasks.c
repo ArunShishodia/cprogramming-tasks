@@ -1,6 +1,8 @@
+// added header file conio.h because Turbo C7 shows error if we not add header file conio.h
 Task 1:
 
 #include<stdio.h>
+#include<conio.h>
 main()
 {
    char name[20];
@@ -14,6 +16,7 @@ main()
 Task 2:
 
 #include<stdio.h>
+#include<conio.h>
 main()
 {  float c,f;
    printf("Enter the temperature in fahrenheit");
@@ -24,6 +27,7 @@ main()
 
 Task 3:
 #include<stdio.h>
+#include<conio.h>
 main()
 {
    float aver;
@@ -37,6 +41,7 @@ main()
 
 Task 4:
 #include<stdio.h>
+#include<conio.h>
 #include<string.h>
 main()
 {
@@ -51,6 +56,7 @@ main()
 
 Task 5:
 #include<stdio.h>
+#include<conio.h>
 main()
 {
    int n,rev,rem;
@@ -66,6 +72,7 @@ main()
 
 Task 6:
 #include<stdio.h>
+   #include<conio.h>
 main()
 {
    int n,a,rem,res=0;
@@ -86,6 +93,7 @@ main()
 
 Task 7:
 #include<stdio.h>
+   #include<conio.h>
 #include<string.h>
 main()
 {
@@ -103,6 +111,7 @@ main()
 
 Task 8:
 #include<stdio.h>
+   #include<conio.h>
 main()
 {
    int n,i;
@@ -116,6 +125,7 @@ main()
 
 Task 9:
 #include<stdio.h>
+   #include<conio.h>
 main()
 {
    int i,j,r;
@@ -133,7 +143,8 @@ main()
 
 
 Task 10:
-#include<stdio.h>
+#include<stdio.h> 
+#include<conio.h>
 main()
 {
     int c,n,fact=1;
@@ -151,6 +162,7 @@ main()
 Task 11:
 {
 #include<stdio.h>
+   #include<conio.h>
 #include<string.h>
 {
    struct Book{
@@ -175,6 +187,7 @@ void printbook(struct Book book){
 
 
 Task 12:
+   #include<conio.h>
 #include<stdio.h>
 main()
 {
@@ -205,6 +218,7 @@ main()
 
 Task 13:
 #include<stdio.h>
+   #include<conio.h>
 main()
 {
    int a[50],i,n,large,small;
